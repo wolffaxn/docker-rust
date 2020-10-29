@@ -1,5 +1,4 @@
-use std::io::Error;
-use std::io::ErrorKind;
+use std::io::{Error, ErrorKind};
 
 fn echo(args: &[&str]) {
     if args.len() < 1 {
