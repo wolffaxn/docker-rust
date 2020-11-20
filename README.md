@@ -33,7 +33,7 @@ export DOCKER_BUILDKIT=1
 To build the `buster-slim` image, run the following command.
 
 ```
-docker build . -t wolffaxn/rust:1.47.0-buster-slim 1.47/buster-slim
+docker build . -t wolffaxn/rust:1.48.0-buster-slim 1.48/buster-slim
 ```
 
 ## Build (using Makefile)
@@ -49,21 +49,21 @@ make
 Run this command to show `cargo` version.
 
 ```
-❯ docker run --rm -it wolffaxn/rust:1.47.0-buster-slim cargo --version
-cargo 1.47.0 (f3c7e066a 2020-08-28)
+❯ docker run --rm -it wolffaxn/rust:1.48.0-buster-slim cargo --version
+cargo 1.48.0 (65cbdd2dc 2020-10-14)
 ```
 
 Run this command to show `rustc` version.
 
 ```
-❯ docker run --rm -it wolffaxn/rust:1.47.0-buster-slim rustc --version
-rustc 1.47.0 (18bf6b4f0 2020-10-07)
+❯ docker run --rm -it wolffaxn/rust:1.48.0-buster-slim rustc --version
+rustc 1.48.0 (7eac88abb 2020-11-16)
 ```
 
 Run this command to show `rustup` version.
 
 ```
-❯ docker run --rm -it wolffaxn/rust:1.47.0-buster-slim rustup --version
+❯ docker run --rm -it wolffaxn/rust:1.48.0-buster-slim rustup --version
 rustup 1.22.1 (b01adbbc3 2020-07-08)
 ```
 
