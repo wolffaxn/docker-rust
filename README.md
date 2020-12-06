@@ -63,8 +63,8 @@ rustc 1.48.0 (7eac88abb 2020-11-16)
 Run this command to show `rustup` version.
 
 ```
-docker run --rm -it wolffaxn/rust:1.48.0-buster-slim rustup --version
-rustup 1.23.0 (00924c9ba 2020-11-27)
+❯ docker run --rm -it wolffaxn/rust:1.48.0-buster-slim rustup --version
+rustup 1.23.1 (3df2264a9 2020-11-30)
 info: This is the version for the rustup toolchain manager, not the rustc compiler.
 info: The currently active `rustc` version is `rustc 1.48.0 (7eac88abb 2020-11-16)`
 ```
